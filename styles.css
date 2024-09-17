@@ -455,6 +455,10 @@ body {
     color: white;
 }
 
+.footer.shortname {
+    display: none;
+}
+
 .footer-email,
 .footer-linkedin {
     color: white;
@@ -580,6 +584,9 @@ nav {
 }
 
 @media (max-width: 768px) {
+    .logo {
+        position: absolute;
+    }
     .header-contact-backup {
         position: absolute;
     }
@@ -592,5 +599,14 @@ nav {
     }
     .box-contact {
         height: 45vh;
+    }
+    .footer {
+        font-size: 1rem;
+    }
+    .footer.fullname {
+        display: none;
+    }
+    .footer.shortname {
+        display: block;
     }
 }
