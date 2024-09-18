@@ -510,6 +510,9 @@ nav {
     .hello {
         margin-top: 3rem;
     }
+    .introduction, .resume {
+        text-align: center;
+    }
     .logo {
         position: absolute;
     }
