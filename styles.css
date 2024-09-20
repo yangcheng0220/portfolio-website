@@ -337,7 +337,7 @@ body {
     background-size: 2rem;
     height: 2rem;
     width: 2rem;
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
 }
 
 .accordion-button:not(.collapsed)::after {
